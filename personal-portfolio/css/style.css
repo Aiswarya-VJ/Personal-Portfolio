@@ -291,7 +291,7 @@ img {
 }
 
 .sticky_navigation .nav li.active a{
-    color: #00B0DC;
+    color: #054477;;
 }
 
 .sticky_navigation .nav li.active::after {
@@ -307,7 +307,7 @@ img {
 }
 
 .sticky_navigation .logo span {
-    color: #00b0dc;
+    color: #054477;;
 }
 
 .main-menu{
@@ -339,7 +339,7 @@ img {
 
 .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none;
-    color: #00B0DC;
+    color: #ffffff;;
 }
 
 .navbar-right li{
@@ -354,7 +354,7 @@ img {
 }
 
 .navbar-right li.active a{
-    color: #00B0DC;
+    color: #76bbf4;;
 }
 
 .nav > li > a:hover,
@@ -364,7 +364,7 @@ img {
 }
 
 .navbar-toggle .icon-bar{
-    background: #033D75;
+    background: #ffffff;
 }
 
 #icon {
@@ -481,7 +481,7 @@ canvas{
 }
 
 .social-icon ul li a:hover {
-    background: #00b0dc;
+    background: #054477;;
 }
 
 .ah-headline.clip .ah-words-wrapper::after {
@@ -592,8 +592,8 @@ canvas{
 }
 
 .skill-btn {
-    background: #00b0dc;
-    border: 1px solid #00b0dc;
+    background: #054477;;
+    border: 1px solid #054477;
     color: #fff;
 }
 
@@ -606,7 +606,7 @@ canvas{
     letter-spacing: 1px;
     text-decoration: none;
     color: #fff;
-    background: #00b0dc;
+    background: #054477;
     cursor: pointer;
     transition: ease-out 0.5s;
     -webkit-transition: ease-out 0.5s;
@@ -808,7 +808,7 @@ canvas{
 
 .service-icon i {
     font-size: 50px;
-    color: #00B0DC;
+    color: #054477;
     margin-bottom: 20px;
 }
 
@@ -944,7 +944,7 @@ canvas{
 .skillbar-bar .skillbar-child {
     width: 0;
     height: 100%;
-    background-color: #00B0DC;
+    background-color: #054477;
     -webkit-transition-property: width, background-color;
     -o-transition-property: width, background-color;
     transition-property: width, background-color;
@@ -968,7 +968,7 @@ canvas{
     left: 0px;
     bottom: 0px;
     right: 0px;
-    background: #00B0DC;
+    background: #054477;
     opacity: 0;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -1061,7 +1061,7 @@ ul.port-nav-list li a {
 }
 
 ul.port-nav-list li a.active {
-    color: #00B0DC;
+    color: #054477;
 }
 
 .port-items {
@@ -1123,7 +1123,7 @@ ul.port-nav-list li a.active {
     text-align: center;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #00B0DC;
+    color: #054477;
     font-size: 18px;
 }
 
