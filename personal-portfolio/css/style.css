@@ -41,6 +41,7 @@ body{
     color: #ffffff;
     font-weight: 400;
     scrollbar-color: dark;
+    background: #000000;
 }
 
 :root {
@@ -327,7 +328,7 @@ img {
     text-transform: uppercase;
     font-size: 25px;
     display: block;
-    color: #000000;
+    color: #a19f9f;
     font-weight: 800;
 }
 
@@ -354,7 +355,7 @@ img {
 }
 
 .navbar-right li.active a{
-    color: #76bbf4;;
+    color: #5da1d8;;
 }
 
 .nav > li > a:hover,
@@ -526,6 +527,7 @@ canvas{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background: #040404;
 
 }
 
@@ -1325,7 +1327,7 @@ ul.port-nav-list li a.active {
 .resumes li h3 {
     font-size: 20px;
     margin-bottom: 12px;
-    color: #054477;
+    color: #ffffff;
 }
 
 .resumes li h4 {
@@ -1335,7 +1337,7 @@ ul.port-nav-list li a.active {
 
 .resumes li h5 {
     margin-bottom: 8px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .resumes li p {
@@ -1343,7 +1345,7 @@ ul.port-nav-list li a.active {
     font-size: 15px;
     position: relative;
     z-index: 1;
-    color: #000000;
+    color: #ffffff;
 }
 
 /*-------- Experience area ends -------------*/
