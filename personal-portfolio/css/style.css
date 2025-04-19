@@ -739,11 +739,11 @@ canvas{
 }
 
 .about-text-right h6 {
-    color: #b4b0b0;
+    color: #333333;
 }
 
 .about-right p span {
-    color: #262626;
+    color: #6089bb;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -761,7 +761,7 @@ canvas{
     position: relative;
     margin-right: 10px;
     padding-bottom: 1px;
-    color: #262626;
+    color: #ffffff;
     font-weight: 700;
 }
 .about-right .about-list li .title:before {
