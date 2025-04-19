@@ -49,7 +49,7 @@ body{
 }
 
 .dark-theme {
-    --primary-color: #ffffff;
+    --primary-color: s#ffffff;
     --secondary-color: #000000;
 }
 
@@ -105,7 +105,7 @@ img {
     padding-bottom: 60px;
 }
 .section-title h2 span{
-    color: #afd3f1;
+    color: #054477;
 }
 .section-title h2 {
     font-size: 40px;
@@ -258,7 +258,7 @@ img {
 }
 
 .nav-area.sticky_navigation{
-    background: #000000;
+    background: #2a2929;
     height: 80px;
 }
 
@@ -1302,7 +1302,7 @@ ul.port-nav-list li a.active {
 
 .java:hover {
     background-color: #b07219;
-    color: #054477;
+    color: #bac6f9;
 }
 
 /*-------- 11. Experience area starts -------------*/
