@@ -750,7 +750,7 @@ canvas{
 
 .about-list{
     list-style: none;
-    color: #262626;
+    color: #ffffff;
 }
 
 .about-right .about-list li {
@@ -771,7 +771,7 @@ canvas{
     width: 100%;
     bottom: 0;
     left: 0;
-    background: #262626;
+    background: #365794;
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
