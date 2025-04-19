@@ -105,7 +105,7 @@ img {
     padding-bottom: 60px;
 }
 .section-title h2 span{
-    color: #00B0DC;
+    color: #054477;
 }
 .section-title h2 {
     font-size: 40px;
@@ -140,7 +140,7 @@ img {
 
 .loader:before, .loader:after {
     content: '';
-    border: 1em solid #00B0DC;
+    border: 1em solid #054477;
     border-radius: 50%;
     width: inherit;
     height: inherit;
