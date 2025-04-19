@@ -283,11 +283,11 @@ img {
 }
 
 .sticky_navigation .navbar-brand:hover, .sticky_navigation .navbar-brand:focus, .sticky_navigation .navbar-brand span {
-    color: #fffefe;
+    color: #ffffff;
 }
 
 .sticky_navigation .nav li a {
-    color: #262626;
+    color: #ffffff;
 }
 
 .sticky_navigation .nav li.active a{
