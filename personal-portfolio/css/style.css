@@ -38,19 +38,19 @@ body{
     height: 100%;
     font-size: 15px;
     line-height: 1.7;
-    color: #333333;
+    color: #ffffff;
     font-weight: 400;
     scrollbar-color: dark;
 }
 
 :root {
-    --primary-color: #ffffff;
-    --secondary-color: #111;
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
 }
 
 .dark-theme {
-    --primary-color: #111;
-    --secondary-color: #f2f2f2;
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
 }
 
 h1,
@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6{
-    color: #333333;
+    color: #ffffff;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -105,11 +105,11 @@ img {
     padding-bottom: 60px;
 }
 .section-title h2 span{
-    color: #054477;
+    color: #afd3f1;
 }
 .section-title h2 {
     font-size: 40px;
-    color: #262626;
+    color: #ffffff;
     letter-spacing: 1px;
     font-weight: 400;
     text-transform: uppercase;
@@ -243,7 +243,7 @@ img {
     width: 8px;
     height: 8px;
     margin: -4px 0 0 -4px;
-    background: #ffffff;
+    background: #000000;
     border-radius: 50%;
     -webkit-animation: scroll-ani 2s linear infinite;
     animation: scroll-ani 2s linear infinite;
@@ -258,7 +258,7 @@ img {
 }
 
 .nav-area.sticky_navigation{
-    background: #fafafa;
+    background: #000000;
     height: 80px;
 }
 
@@ -279,7 +279,7 @@ img {
 }
 
 .sticky_navigation .navbar-brand, .sticky_navigation .navbar-brand span {
-    color: #000000;
+    color: #ffffff;
 }
 
 .sticky_navigation .navbar-brand:hover, .sticky_navigation .navbar-brand:focus, .sticky_navigation .navbar-brand span {
@@ -303,7 +303,7 @@ img {
 }
 
 .sticky_navigation .navbar-brand:hover{
-    color: #ffffff;
+    color: #000000;
 }
 
 .sticky_navigation .logo span {
@@ -327,7 +327,7 @@ img {
     text-transform: uppercase;
     font-size: 25px;
     display: block;
-    color: #ffffff;
+    color: #000000;
     font-weight: 800;
 }
 
@@ -339,7 +339,7 @@ img {
 
 .navbar-brand:focus, .navbar-brand:hover {
     text-decoration: none;
-    color: #ffffff;;
+    color: #000000;;
 }
 
 .navbar-right li{
@@ -405,7 +405,7 @@ img {
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid #fff;
+    border: 5px solid #000000;
     display: inline-block;
 }
 
@@ -477,7 +477,7 @@ canvas{
     border: 1px solid rgba(255, 255, 255, 0.08);
     -webkit-transition: all 300ms linear;
     transition: all 300ms linear;
-    color: #fff;
+    color: #191818;
 }
 
 .social-icon ul li a:hover {
@@ -594,7 +594,7 @@ canvas{
 .skill-btn {
     background: #054477;;
     border: 1px solid #054477;
-    color: #fff;
+    color: #000000;
 }
 
 .btn {
@@ -672,13 +672,13 @@ canvas{
 .effectBtn {
     --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
     display: var(--uismLinkDisplay);
-    color: #000000;
-    outline: solid  1px #000000;
+    color: #ffffff;
+    outline: solid  1px #fafafa;
     position: relative;
     transition-duration: 0.4s;
     overflow: hidden;
-    border: 1px solid #000000;
-    background: #ffffff;
+    border: 1px solid #ffffff;
+    background: #054477;
 }
 
 .effectBtn::before,
@@ -699,7 +699,7 @@ canvas{
 
 .effectBtn::before{
     content: attr(data-before-effect-link-text);
-    color: #FFF;
+    color: #000000;
     position: absolute;
     left: 0;
     right: 0;
@@ -721,17 +721,18 @@ canvas{
 .about-text-left p {
     text-align: right;
     font-size: 15px;
-    color: #fafafa;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 .about-right h2 {
     margin-bottom: 30px;
     text-transform: uppercase;
+    
 }
 
 .about-text-right h3 {
-    color: #fafafa;
+    color: #000000;
     margin-bottom: 45px;
 }
 
@@ -747,10 +748,12 @@ canvas{
 
 .about-list{
     list-style: none;
+    color: #262626;
 }
 
 .about-right .about-list li {
     margin-bottom: 10px;
+    
 }
 .about-right .about-list li .title {
     position: relative;
@@ -793,7 +796,7 @@ canvas{
 
 
 .services-area {
-    background: #f8f8f8;
+    background: #000000;
 }
 .service {
     text-align: center;
@@ -1105,7 +1108,7 @@ ul.port-nav-list li a.active {
 .project-card {
     padding: 10px;
     margin: 10px;
-    background: #fafaff;
+    background: #000000;
     text-align: center;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
@@ -1167,22 +1170,22 @@ ul.port-nav-list li a.active {
 }
 
 .css {
-    background-color: #dcf0ff;
+    background-color: #040404;
     color: #1d72aa;
 }
 
 .css:hover {
     background-color: #1d72aa;
-    color: #dcf0ff;
+    color: #010101;
 }
 
 .scss {
     background-color: #fff8dc;
-    color: #c6538c;
+    color: #054477;
 }
 
 .scss:hover {
-    background-color: #c6538c;
+    background-color: #054477;
     color: #fff8dc;
 }
 
@@ -1220,7 +1223,7 @@ ul.port-nav-list li a.active {
 
 .jquery,
 .json {
-    background-color: #dbdafc;
+    background-color: #000000;
     color: #253279;
 }
 
@@ -1233,17 +1236,17 @@ ul.port-nav-list li a.active {
 .ajax,
 .api {
     background-color: #fcd6fc;
-    color: #792562;
+    color: #054477;
 }
 
 .ajax:hover,
 .api:hover {
-    background-color: #792562;
-    color: #fcd6fc;
+    background-color: #054477;
+    color: #bac6f9;
 }
 
 .python {
-    background-color: #dbdafc;
+    background-color: #000000;
     color: #253279;
 }
 
@@ -1254,22 +1257,22 @@ ul.port-nav-list li a.active {
 
 .tkinter {
     background-color: #fcd6fc;
-    color: #792562;
+    color: #054477;
 }
 
 .tkinter:hover {
-    background-color: #792562;
-    color: #fcd6fc;
+    background-color: #054477;
+    color: #bac6f9;
 }
 
 .sqlite3 {
     background-color: #ffe4ea;
-    color: #cc0f35;
+    color: #054477;
 }
 
 .sqlite3:hover {
-    background-color: #cc0f35;
-    color: #ffe4ea;
+    background-color: #054477;
+    color: #bac6f9;
 }
 
 .bootstrap {
@@ -1279,27 +1282,27 @@ ul.port-nav-list li a.active {
 
 .bootstrap:hover {
     background-color: #947600;
-    color: #fff8dc;
+    color: #bac6f9;
 }
 
 .cpp {
     background-color: #ffe4ea;
-    color: #cc0f35;
+    color: #054477;
 }
 
 .cpp:hover {
-    background-color: #cc0f35;
-    color: #ffe4ea;
+    background-color: #054477;
+    color: #bac6f9;
 }
 
 .java {
-    background-color: #ffe4ea;
+    background-color: #000000;
     color: #b07219;
 }
 
 .java:hover {
     background-color: #b07219;
-    color: #ffe4ea;
+    color: #054477;
 }
 
 /*-------- 11. Experience area starts -------------*/
@@ -1322,15 +1325,17 @@ ul.port-nav-list li a.active {
 .resumes li h3 {
     font-size: 20px;
     margin-bottom: 12px;
+    color: #054477;
 }
 
 .resumes li h4 {
     font-size: 15px;
-    color: #00B0DC;
+    color: #054477;
 }
 
 .resumes li h5 {
     margin-bottom: 8px;
+    color: #000000;
 }
 
 .resumes li p {
@@ -1338,6 +1343,7 @@ ul.port-nav-list li a.active {
     font-size: 15px;
     position: relative;
     z-index: 1;
+    color: #000000;
 }
 
 /*-------- Experience area ends -------------*/
@@ -1345,7 +1351,7 @@ ul.port-nav-list li a.active {
 /*------- 12. Testimonial area css starts --------*/
 
 .testimonial-area .section-title h2 {
-    color: #fff;
+    color: #000000;
 }
 
 .testimonial-area{
@@ -1356,6 +1362,7 @@ ul.port-nav-list li a.active {
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    
 }
 .testimonial-area:before{
     position: absolute;
@@ -1368,7 +1375,7 @@ ul.port-nav-list li a.active {
     z-index: -1;
 }
 .single-testimonial {
-    background: #ffffff;
+    background: #000000;
     border-radius: 5px;
     padding: 30px;
     text-align: center;
@@ -1382,17 +1389,19 @@ ul.port-nav-list li a.active {
     margin: 10px 0 0;
     font-size: 18px;
     text-transform: uppercase;
+    
 }
 
 .testi-comment i {
     font-size: 30px;
-    color: #00B0DC;
+    color: #054477;
 }
 
 .single-testimonial h3 {
     margin: 10px 0 0;
     font-weight: 100;
     font-size: 15px;
+    
 }
 
 .testi-img {
@@ -1421,14 +1430,14 @@ ul.port-nav-list li a.active {
     display: inline-block;
     height: 15px !important;
     width: 15px !important;
-    background-color: #ffffff !important;
+    background-color: #000000 !important;
     opacity: 0.8;
     border-radius: 50%;
     margin: 0 5px;
 }
 
 .owl-dot.active {
-    background-color: #00B0DC !important;
+    background-color: #054477 !important;
 }
 
 
@@ -1437,7 +1446,7 @@ ul.port-nav-list li a.active {
 /*-------------13. Contact area starts -------------*/
 
 .contact-area{
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 .contact-area .form-control{
@@ -1453,7 +1462,7 @@ ul.port-nav-list li a.active {
 }
 
 .right-contact-text i {
-    color: #00B0DC;
+    color: #054477;
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -1466,8 +1475,8 @@ ul.port-nav-list li a.active {
 }
 
 .btn.btn-send {
-    background: #00B0DC;
-    color: #ffffff;
+    background: #054477;
+    color: #000000;
     border-radius: 0;
     padding: 15px 20px;
     text-transform: uppercase;
@@ -1488,7 +1497,7 @@ ul.port-nav-list li a.active {
     line-height: 21px;
     letter-spacing: 2px;
     font-size: 11px;
-    color: #777;
+    color: #000000;
 }
 /*------------- Contact area ends -------------*/
 
@@ -1500,7 +1509,7 @@ ul.port-nav-list li a.active {
     padding: 30px 0;
 }
 .footer-area a{
-    color: #00B0DC;
+    color: #054477;
 }
 
 /*--------------- Footer area ends -------------*/
